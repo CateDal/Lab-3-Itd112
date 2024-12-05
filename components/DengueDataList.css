@@ -1,0 +1,58 @@
+.container {
+    width: 80%;
+    margin: 20px auto; /* Corrected syntax for margin */
+  }
+  
+  .centered-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .data-table {
+    width: 50%; /* Adjust width to make the table smaller */
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-width: 600px; /* Optionally add max-width to control the size */
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 6px; /* Reduced padding to make cells more compact */
+    text-align: left;
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+
+  
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: rgb(207, 30, 30);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
+  .upload-csv-button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .upload-csv-button:hover {
+    background-color: darkgreen;
+  }
+}
